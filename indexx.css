@@ -1,0 +1,64 @@
+.skill {
+  width: 100%;
+  margin: 20px 0;
+}
+.skil_bar {
+  background: rgba(0, 0, 0, 0.1);
+  height: 6px;
+  border-radius: 5px;
+  width: 100%;
+}
+.sb {
+  position: relative;
+  display: block;
+  height: 100%;
+  border-radius: 5px;
+  background-color: aqua;
+  animation: progress 1.4s ease-in-out forwards;
+  animation-delay: 0.5s;
+  opacity: 0;
+}
+.html {
+  animation-delay: 0.1s;
+  width: 80%;
+}
+.css {
+  animation-delay: 0.1s;
+  width: 80%;
+}
+.python {
+  animation-delay: 0.1s;
+  width: 75%;
+}
+.mysql {
+  animation-delay: 0.1s;
+  width: 50%;
+}
+.js {
+  animation-delay: 0.1s;
+  width: 30%;
+}
+.node {
+  animation-delay: 0.1s;
+  width: 30%;
+}
+@keyframes progress {
+  0% {
+    width: 0;
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.tool {
+  position: relative;
+  top: -20px;
+  left: 100%;
+}
+.blue-btn:hover {
+  opacity: 70%;
+}

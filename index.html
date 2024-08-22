@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- --------- UNICONS ---------- -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="indexx.css" />
+
+    <!-- --------- FAVICON ---------- -->
+    <link rel="icon" href="assest/icon.jpg" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Portfolio | yoganandh</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+        <div class="nav-logo">
+          <p class="nav-name">Yoga</p>
+          <span>.</span>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+          <ul class="nav_menu_list">
+            <li class="nav_list">
+              <a href="#home" class="nav-link active-link">Home</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#about" class="nav-link">About</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#projects" class="nav-link">Projects</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#contact" class="nav-link">Contact</a>
+              <div class="circle"></div>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-button">
+          <button class="btn" onclick="window.open('./assest/My_resume.pdf')">
+            Download CV <i class="uil uil-file-alt"></i>
+          </button>
+        </div>
+        <div class="nav-menu-btn">
+          <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+
+      <!-- -------------- MAIN ---------------- -->
+      <main class="wrapper">
+        <!-- -------------- FEATURED BOX ---------------- -->
+        <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+              <span>Yoganandh M</span>
+            </div>
+            <div class="featured-name">
+              <p>I'm <span class="typedText"></span></p>
+            </div>
+            <div class="featured-text-info">
+              <p>
+                Frontend developer with a passion for creating visually stunning
+                and user-friendly websites.
+              </p>
+            </div>
+            <div class="featured-text-btn">
+              <a href="#contact" class="btn blue-btn">Hire Me</a>
+              <button
+                class="btn"
+                onclick="window.open('./assest/My_resume.pdf')"
+              >
+                Download CV <i class="uil uil-file-alt"></i>
+              </button>
+            </div>
+            <div class="social_icons">
+              <div
+                class="icon"
+                onclick="openInNewTab('http://www.linkedin.com/in/yoganandh1/')"
+              >
+                <i class="uil uil-linkedin-alt"></i>
+              </div>
+              <div
+                class="icon"
+                onclick="openInNewTab('https://github.com/YOGANANDH60')"
+              >
+                <i class="uil uil-github-alt"></i>
+              </div>
+            </div>
+          </div>
+          <div class="featured-image">
+            <div class="image">
+              <img src="assest/photo2.jpg" alt="avatar" />
+            </div>
+          </div>
+          <div class="scroll-icon-box">
+            <a href="#about" class="scroll-btn">
+              <i class="uil uil-mouse-alt"></i>
+              <p>Scroll Down</p>
+            </a>
+          </div>
+        </section>
+        <!-- -------------- ABOUT BOX ---------------- -->
+        <section class="section" id="about">
+          <div class="top-header">
+            <h1>About Me</h1>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="about-info">
+                <h3>My introduction</h3>
+                <p>
+                  I am well-versed in HTML, CSS and JavaScript , Python, Mysql
+                  and other cutting edge frameworks and libraries,which allows
+                  me to implement interactive features. Additionally,
+                </p>
+                <div class="about-btn">
+                  <button class="btn">
+                    Download CV <i class="uil uil-import"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="about-info">
+              <div class="skill">
+                <span class="title">HTML</span>
+                <div class="skil_bar">
+                  <span class="sb html">
+                    <span class="tool">80%</span>
+                  </span>
+                </div>
+              </div>
+              <div class="skill">
+                <span class="title">CSS</span>
+                <div class="skil_bar">
+                  <span class="sb css">
+                    <span class="tool">80%</span>
+                  </span>
+                </div>
+              </div>
+              <div class="skill">
+                <span class="title">PYTHON</span>
+                <div class="skil_bar">
+                  <span class="sb python">
+                    <span class="tool">75%</span>
+                  </span>
+                </div>
+              </div>
+              <div class="skill">
+                <span class="title">MYSQL</span>
+                <div class="skil_bar">
+                  <span class="sb mysql">
+                    <span class="tool">50%</span>
+                  </span>
+                </div>
+              </div>
+              <div class="skill">
+                <span class="title">JAVASCRIPT</span>
+                <div class="skil_bar">
+                  <span class="sb js">
+                    <span class="tool">30%</span>
+                  </span>
+                </div>
+              </div>
+              <div class="skill">
+                <span class="title">Node JS</span>
+                <div class="skil_bar">
+                  <span class="sb node">
+                    <span class="tool">30%</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- -------------- PROJECT BOX ---------------- -->
+
+        <section class="section" id="projects">
+          <div class="top-header">
+            <h1>Projects</h1>
+          </div>
+          <div
+            class="project-container"
+            onclick="openInNewTab('https://pandaa-shopping.netlify.app/')"
+          >
+            <div class="project-box" onclick="">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <h3>Paanda Shopping</h3>
+              <label>It's a Simple Website Using html, css, javascript </label>
+              <label>click to view </label>
+            </div>
+            <div class="project-box">
+              <i class="fa-solid fa-utensils"></i>
+              <h3>Restaurent data collecter</h3>
+              <label>It's a Collection of Famous Restaurent</label>
+              <label>click to view</label>
+            </div>
+            <div class="project-box">
+              <i class="fa-solid fa-address-card"></i>
+              <h3>Job Portal</h3>
+              <label>On Going</label>
+              <label>click to view</label>
+            </div>
+          </div>
+        </section>
+
+        <!-- -------------- CONTACT BOX ---------------- -->
+
+        <section class="section" id="contact">
+          <div class="top-header">
+            <h1>Get in touch</h1>
+            <span>Do you have a project in your mind, contact me here</span>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="contact-info">
+                <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                <p>
+                  <i class="uil uil-envelope"></i> Email: yoga132005@gmail.com
+                </p>
+                <p><i class="uil uil-phone"></i> Phone: +91 638 143 9924</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-control">
+                <div class="form-inputs">
+                  <input type="text" class="input-field" placeholder="Name" />
+                  <input type="text" class="input-field" placeholder="Email" />
+                </div>
+                <div class="text-area">
+                  <textarea placeholder="Message"></textarea>
+                </div>
+                <div class="form-button">
+                  <a href="mailto:yoga132005@gmail.com" class="btn">
+                    Send <i class="uil uil-message"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- --------------- FOOTER --------------- -->
+      <footer>
+        <div class="top-footer">
+          <p>Yoganandh M .</p>
+        </div>
+        <div class="middle-footer">
+          <ul class="footer-menu">
+            <li class="footer_menu_list">
+              <a href="#home">Home</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#about">About</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#projects">Projects</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-social-icons">
+          <div
+            class="icon"
+            onclick="openInNewTab('http://www.linkedin.com/in/yoganandh1/')"
+          >
+            <i class="uil uil-linkedin-alt"></i>
+          </div>
+          <div
+            class="icon"
+            onclick="openInNewTab('https://github.com/YOGANANDH60')"
+          >
+            <i class="uil uil-github-alt"></i>
+          </div>
+        </div>
+        <div class="bottom-footer">
+          <p>
+            Copyright &copy;
+            <a href="#home" style="text-decoration: none">Yoganandh</a> - All
+            rights reserved
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="index.js"></script>
+  </body>
+</html>
