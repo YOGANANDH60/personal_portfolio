@@ -392,6 +392,7 @@ h3{
     font-size: 15px;
     color: #777;
 }
+
 .project-box::after, .contact-info::after{
     content: "";
     position: absolute;
@@ -632,6 +633,8 @@ footer{
     }
     .project-box{
         width: 100%;
+        text-align: center;
+        padding: 5px;
     }
     .form-inputs{
         flex-direction: column;
@@ -644,3 +647,4 @@ footer{
 .skil_bar {
     margin-top: 18px;
 }
+
