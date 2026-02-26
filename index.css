@@ -342,6 +342,7 @@ h3{
     background: var(--first-color-hover);
 }
 
+
 /* ----- ABOUT / SKILLS BOX ----- */
 .skills-box{
     margin: 10px;
@@ -403,10 +404,67 @@ h3{
     transition: .4s;
     z-index: 1;
 }
-.project-box:hover.project-box::after,
+.project-box {
+  width: 300px;
+  height: 280px;
+  perspective: 1000px;
+  cursor: pointer;
+}
+
+.project-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.project-box:hover .project-inner {
+  transform: rotateY(180deg);
+}
+
+.project-front{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  color: rgb(40, 155, 204);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  backface-visibility: hidden;
+  padding: 20px;
+}
+.project-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  color: rgb(255, 255, 255);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  backface-visibility: hidden;
+  padding: 20px;
+}
+
+.project-back {
+  transform: rotateY(180deg);
+  background: var(--second-color);
+}
+
+.project-back ul {
+  text-align: left;
+  padding-left: 20px;
+}
+/* .project-box:hover.project-box::after,
 .contact-info:hover.contact-info::after{
     bottom: 0;
-}
+} */
 .project-box:hover.project-box i,
 .project-box:hover.project-box>h3,
 .project-box:hover.project-box>label{
