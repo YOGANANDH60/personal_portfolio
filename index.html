@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Yoganandh - Software Developer Portfolio. Python, Django, Web Development Projects."
+    />
 
     <!-- --------- UNICONS ---------- -->
     <link
@@ -80,8 +84,9 @@
             </div>
             <div class="featured-text-info">
               <p>
-                Frontend developer with a passion for creating visually stunning
-                and user-friendly websites.
+                Aspiring Software Developer skilled in Python, Django, and
+                Frontend technologies. Focused on building scalable web
+                applications and solving real-world problems.
               </p>
             </div>
             <div class="featured-text-btn">
@@ -94,18 +99,18 @@
               </button>
             </div>
             <div class="social_icons">
-              <div
+              <a
                 class="icon"
                 onclick="openInNewTab('http://www.linkedin.com/in/yoganandh1/')"
               >
                 <i class="uil uil-linkedin-alt"></i>
-              </div>
-              <div
+              </a>
+              <a
                 class="icon"
                 onclick="openInNewTab('https://github.com/YOGANANDH60')"
               >
                 <i class="uil uil-github-alt"></i>
-              </div>
+              </a>
             </div>
           </div>
           <div class="featured-image">
@@ -121,77 +126,56 @@
           </div>
         </section>
         <!-- -------------- ABOUT BOX ---------------- -->
-        <section class="section" id="about">
+        <section class="section about-section" id="about">
           <div class="top-header">
             <h1>About Me</h1>
+            <span>Get to know me better</span>
           </div>
-          <div class="row">
-            <div class="col">
-              <div class="about-info">
-                <h3>My introduction</h3>
-                <p>
-                  I am well-versed in HTML, CSS and JavaScript , Python, Mysql
-                  and other cutting edge frameworks and libraries,which allows
-                  me to implement interactive features. Additionally,
-                </p>
-                <div class="about-btn">
-                  <button
-                    class="btn"
-                    onclick="window.open('./assest/yoganandh_m resume.pdf')"
-                  >
-                    Download CV <i class="uil uil-import"></i>
-                  </button>
-                </div>
+
+          <div class="about-container">
+            <!-- LEFT SIDE -->
+            <div class="about-left">
+              <h2>Hi, I'm Yoganandh 👋</h2>
+              <p class="about-summary">
+                I am a passionate and self-motivated Software Developer with a
+                strong foundation in Python, Django, and Frontend technologies.
+                I enjoy building scalable web applications and solving
+                real-world problems. <br />
+                Self-motivated BCA graduate with strong foundation in Data
+                Structures, Web Development, and Backend Engineering. Currently
+                building full-stack applications and preparing for advanced
+                software roles.
+              </p>
+              <p class="about-summary">
+                Currently pursuing my career in software development, focusing
+                on full-stack development, problem-solving, and Data Structures.
+              </p>
+
+              <div class="about-buttons">
+                <a href="#projects" class="btn blue-btn">View Projects</a>
+                <a
+                  href="./assest/yoganandh_m resume.pdf"
+                  class="btn"
+                  target="_blank"
+                >
+                  Download CV
+                </a>
               </div>
             </div>
-            <div class="about-info">
-              <div class="skill">
-                <span class="title">HTML</span>
-                <div class="skil_bar">
-                  <span class="sb html">
-                    <span class="tool">80%</span>
-                  </span>
-                </div>
-              </div>
-              <div class="skill">
-                <span class="title">CSS</span>
-                <div class="skil_bar">
-                  <span class="sb css">
-                    <span class="tool">80%</span>
-                  </span>
-                </div>
-              </div>
-              <div class="skill">
-                <span class="title">PYTHON</span>
-                <div class="skil_bar">
-                  <span class="sb python">
-                    <span class="tool">75%</span>
-                  </span>
-                </div>
-              </div>
-              <div class="skill">
-                <span class="title">MYSQL</span>
-                <div class="skil_bar">
-                  <span class="sb mysql">
-                    <span class="tool">50%</span>
-                  </span>
-                </div>
-              </div>
-              <div class="skill">
-                <span class="title">JAVA</span>
-                <div class="skil_bar">
-                  <span class="sb js">
-                    <span class="tool">80%</span>
-                  </span>
-                </div>
-              </div>
-              <div class="skill">
-                <span class="title">C</span>
-                <div class="skil_bar">
-                  <span class="sb node">
-                    <span class="tool">50%</span>
-                  </span>
-                </div>
+
+            <!-- RIGHT SIDE -->
+            <div class="about-right">
+              <h3>Technical Skills</h3>
+
+              <div class="skills-grid">
+                <span>Python</span>
+                <span>Django</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>MySQL</span>
+                <span>Git</span>
+                <span>Node.js</span>
               </div>
             </div>
           </div>
@@ -204,133 +188,110 @@
             <h1>Projects</h1>
           </div>
           <div class="project-container">
-            <!-- <div
-              class="project-box"
-              onclick="openInNewTab('https://pandaa-shopping.netlify.app/')"
-            >
-              <i class="fa-solid fa-cart-shopping"></i>
-              <h3>Paanda Shopping</h3>
-    
-                <label
-                  >It's a Simple Website Using html, css, javascript
-                </label>
-                <label>click to view </label>
+            <div class="project-card">
+              <img src="assest/wmlogo.jpg" alt="Wentements Project" />
 
-            </div>
-            <div
-              class="project-box"
-              onclick="openInNewTab('https://restaurentdatacollector.onrender.com')"
-            >
-              <i class="fa-solid fa-utensils"></i>
-              <h3>Restaurent data collecter</h3>
-              <label>It's a Collection of Famous Restaurent</label>
-              <label>click to view</label>
-            </div> -->
-            <div class="project-box">
-              <div class="project-inner">
-                <!-- Front Side -->
-                <div class="project-front">
-                  <i class="fa-solid fa-store"></i>
-                  <h3>Wentements</h3>
-                  <p>Final Year Project</p>
+              <div class="project-content">
+                <h3>Wentements</h3>
+                <p class="project-desc">
+                  Full-stack E-commerce platform built with Django. Includes
+                  authentication, cart system, blog approval workflow.
+                </p>
+
+                <div class="tech-stack">
+                  <span>Django</span>
+                  <span>Python</span>
+                  <span>HTML</span>
+                  <span>CSS</span>
                 </div>
 
-                <!-- Back Side -->
-                <div class="project-back">
-                  <h4>Project Details</h4>
-                  <ul style="font-size: small;">
-                    <li>Developed using Django(Python)</li>
-                    <li>User authentication & product management</li>
-                    <li>Shopping cart & order system</li>
-                    <li>Blog feature with admin approval system</li>
-                    <li>Responsive UI using HTML, CSS</li>
-                  </ul>
-
-                  <p
-                    style="
-                      border: 1px white solid;
-                      background: var(--second-color);
-                      color: rgb(255, 255, 255);
-                      margin-top: 10px;
-                      padding: 5px;
-                      cursor: pointer;
-                    "
-                    onclick="openInNewTab('https://github.com/YOGANANDH60/WenteMents')"
+                <div class="project-buttons">
+                  <a
+                    href="https://github.com/YOGANANDH60/WenteMents"
+                    target="_blank"
+                    class="btn"
                   >
-                    Visit Project
-                  </p>
+                    GitHub
+                  </a>
                 </div>
               </div>
             </div>
-            <div class="project-box">
-              <div class="project-inner">
-                <!-- Front Side -->
-                <div class="project-front">
-                  <i class="fa-solid fa-cart-shopping"></i>
-                  <h3>Paanda Shopping</h3>
-                  <p>Click to view</p>
+            <div class="project-card">
+              <img src="assest/panda.png" alt="Paanda Shopping Project" />
+
+              <div class="project-content">
+                <h3>Paanda Shopping</h3>
+
+                <p class="project-desc">
+                  Responsive E-commerce frontend application built using HTML,
+                  CSS and JavaScript. Includes product listing, cart
+                  functionality and clean UI design.
+                </p>
+
+                <div class="tech-stack">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                  <span>Netlify</span>
                 </div>
 
-                <!-- Back Side -->
-                <div class="project-back">
-                  <h4>Project Details</h4>
-                  <ul>
-                    <li>Built using HTML, CSS, JavaScript</li>
-                    <li>Responsive design</li>
-                    <li>Product listing & cart system</li>
-                    <li>Deployed on Netlify</li>
-                  </ul>
-                  <p
-                    style="
-                      border: 1px white solid;
-                      background: var(--second-color);
-                      color: rgb(255, 255, 255);
-                      margin-top: 10px;
-                      padding: 5px;
-                    "
-                    onclick="
-                      openInNewTab('https://pandaa-shopping.netlify.app/')
-                    "
+                <div class="project-buttons">
+                  <a
+                    href="https://pandaa-shopping.netlify.app/"
+                    target="_blank"
+                    class="btn blue-btn"
                   >
-                    Visit Project
-                  </p>
+                    Live Demo
+                  </a>
+
+                  <a
+                    href="https://github.com/YOGANANDH60/shopping_panda"
+                    target="_blank"
+                    class="btn"
+                  >
+                    GitHub
+                  </a>
                 </div>
               </div>
             </div>
-            <div class="project-box">
-              <div class="project-inner">
-                <!-- Front Side -->
-                <div class="project-front">
-                  <i class="fa-solid fa-cart-shopping"></i>
-                  <h3>Restaurent data collecter</h3>
-                  <p>Click to view</p>
+            <div class="project-card">
+              <img
+                src="assest/restaurant.png"
+                alt="Restaurant Data Collector Project"
+              />
+
+              <div class="project-content">
+                <h3>Restaurant Data Collector</h3>
+
+                <p class="project-desc">
+                  Full-stack web application built with Node.js and Express.
+                  Allows users to add, store and view restaurant information
+                  using server-side rendering and backend routing.
+                </p>
+
+                <div class="tech-stack">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>Node.js</span>
+                  <span>Express</span>
+                  <span>Render</span>
                 </div>
 
-                <!-- Back Side -->
-                <div class="project-back">
-                  <h4>Project Details</h4>
-                  <ul>
-                    <li>Built using HTML, CSS, Node.js, Express</li>
-                    <li>It's a Collection of Famous Restaurent</li>
-                    <li>we add and view Restaurent</li>
-                    <li>Deployed on Render</li>
-                  </ul>
-                  <p
-                    style="
-                      border: 1px white solid;
-                      background: var(--second-color);
-                      color: rgb(255, 255, 255);
-                      margin-top: 10px;
-                      padding: 5px;
-                    "
-                    onclick="
-                      openInNewTab(
-                        'https://restaurentdatacollector.onrender.com',
-                      )
-                    "
+                <div class="project-buttons" style="margin-top: 10px;">
+                  <a
+                    href="https://restaurentdatacollector.onrender.com"
+                    target="_blank"
+                    class="btn bg-primary "
                   >
-                    Visit Project
-                  </p>
+                    Live Demo
+                  </a>
+                  <a
+                    href="https://github.com/YOGANANDH60/RestaurentDatacollector"
+                    target="_blank"
+                    class="btn"
+                  >
+                    GitHub
+                  </a>
                 </div>
               </div>
             </div>
